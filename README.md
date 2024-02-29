@@ -5,4 +5,6 @@ This project's codebase has been enhanced with the help of several resources inc
 
 References:
 Wise, P. (n.d.). The Complete Guide to the VBA Worksheet. Excel Macro Mastery. Retrieved from https://excelmacromastery.com/excel-vba-worksheet/
+
+
 OpenAI. (n.d.). ChatGPT: Optimizing Language Models for Dialogue. Retrieved from https://openai.com/chatgpt
