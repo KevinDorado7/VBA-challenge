@@ -116,12 +116,6 @@ Sub StockData(ws As Worksheet)
     ws.Cells(3, 17).Value = greatestDecrease
     ws.Cells(4, 17).Value = greatestVolume
 
-    ws.Cells(2, 17).NumberFormat = "0.00%"
-    ws.Cells(3, 17).NumberFormat = "0.00%"
-    ws.Columns("J:K").NumberFormat = "0.00%"
-    ws.Columns("L").NumberFormat = "0"
-    ws.Columns("K:K").NumberFormat = "0.00%"
-    
     Dim lastRow2 As Long
     lastRow2 = ws.Cells(ws.Rows.Count, "J").End(xlUp).Row
     
@@ -136,5 +130,12 @@ Sub StockData(ws As Worksheet)
         End If
         
     Next j
+
+    ws.Cells(2, 17).NumberFormat = "0.00%"
+    ws.Cells(3, 17).NumberFormat = "0.00%"
+
+    ws.Columns("L").NumberFormat = "0"
+    ws.Columns("K:K").NumberFormat = "0.00%"
+
 End Sub
 
